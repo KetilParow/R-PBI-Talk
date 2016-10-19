@@ -1,4 +1,4 @@
-setwd("C:\\Users\\ketil\\Documents\\Visual Studio 2015\\Projects\\R&PBITalk")
+setwd("C:\\Users\\ketil\\Documents\\Visual Studio 2015\\Projects\\R-PBI-Talk")
 source(".\\load The Cars.r")
 dev.off()
 plot.new()
@@ -19,8 +19,10 @@ cor.test(dieselcars$Power, dieselcars$Co2);
 cor.test(dieselcars$EngDispl, dieselcars$Co2);
 cor.test(dieselcars$Weight, dieselcars$Co2);
 
-mfit <- lm(Co2 ~ EngDispl + Power + Weight, dieselcars)
-summary(mfit)
+#mfit <- lm(Co2 ~ EngDispl + Power + Weight, dieselcars)
+#summary(mfit)
+
+#slide!
 
 qplot(dieselcars$Weight, dieselcars$Co2, geom = 'smooth', method = "auto", xlab = "Weight", ylab = "co2/km")
 

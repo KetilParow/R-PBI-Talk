@@ -1,4 +1,3 @@
-setwd("C:\\Users\\ketil\\Documents\\Visual Studio 2015\\Projects")
 dev.off()
 plot.new()
 

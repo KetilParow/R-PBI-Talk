@@ -1,4 +1,4 @@
-setwd("C:\\Users\\ketil\\Documents\\Visual Studio 2015\\Projects\\R&PBITalk")
+setwd("C:\\Users\\ketil\\Documents\\Visual Studio 2015\\Projects\\R-PBI-Talk")
 source(".\\ShittyMovieMountain.r")
 dev.off()
 plot.new()
