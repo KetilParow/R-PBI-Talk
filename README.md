@@ -1,2 +1,2 @@
-# R-PBI-Talk-San-Remo
-# Source code, example data
+# R PBI Talk San-Remo
+# Source code, example data and PBI file
