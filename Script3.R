@@ -19,12 +19,10 @@ cor.test(dieselcars$Power, dieselcars$Co2);
 cor.test(dieselcars$EngDispl, dieselcars$Co2);
 cor.test(dieselcars$Weight, dieselcars$Co2);
 
+#slide!
 #mfit <- lm(Co2 ~ EngDispl + Power + Weight, dieselcars)
 #summary(mfit)
-
-#slide!
-
-qplot(dieselcars$Weight, dieselcars$Co2, geom = 'smooth', method = "auto", xlab = "Weight", ylab = "co2/km")
+#qplot(dieselcars$Weight, dieselcars$Co2, geom = 'smooth', method = "auto", xlab = "Weight", ylab = "co2/km")
 
 mfit <- lm(Co2 ~ Weight, dieselcars)
 predict(mfit, newdata = data.frame(Weight = c(1600,5000,0)), interval = 'confidence')
